@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer - Index</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
-</html>
+    <?php 
+        $title = "Index";
+        include 'includes/header.php';
+
+        $name = 'Keyur';
+        $age = 40;
+        echo '<h1>My name is: ' . $name . '</h1>';
+        echo '<h1>My age is: ' . $age . '</h1>';
+    ?>
+    <button type="button" class="btn btn-dark">Click Me!</button>
+<?php require 'includes/footer.php'; ?>
